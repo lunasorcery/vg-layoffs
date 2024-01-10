@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="format-detection" content="telephone=no">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<h2 class="page-title">How many people has the games industry laid off in {{current-year}}?</h2>
+
+<h2 class="more-than">more than</h2>
+<h1 class="year-total">{{total-this-year}}</h1>
+
+<div class="months">
+  {{#months}}
+  <h3 class="month">{{name}}</h3>
+  <ul class="layoffs">
+    {{#layoffs}}
+    {{#redacted}}
+    <li class="layoff redacted"></li>
+    {{/redacted}}
+    {{^redacted}}
+    <li class="layoff">
+      {{{text}}} <sup><a href="{{link}}" class="source">[source]</a></sup>
+    </li>
+    {{/redacted}}
+    {{/layoffs}}
+  </ul>
+  {{/months}}
+</div>
+
+<footer>
+  Maintained, begrudgingly, by <a href="https://moonbase.lgbt/">Luna</a>.<br>
+  <br>
+  Heavily inspired by Rami Ismail’s <a href="https://is2020over.com/">is2020over.com</a>
+</footer>
+
+</body>
+</html>

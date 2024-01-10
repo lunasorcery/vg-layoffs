@@ -1,0 +1,2 @@
+chevron==0.14.0
+Markdown==3.5.2
