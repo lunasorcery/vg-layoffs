@@ -14,12 +14,25 @@
         "date": "2024-01-09",
         "affected": 500,
         "headline": "**Twitch** to cut **500** employees, about 35% of staff",
-        "link": "https://www.bloomberg.com/news/articles/2024-01-09/amazon-s-twitch-to-cut-500-employees-about-35-of-staff"
+        "link": "https://www.bloomberg.com/news/articles/2024-01-09/amazon-s-twitch-to-cut-500-employees-about-35-of-staff",
+        "comment": "Not strictly a games studio, but still notably games-adjacent."
     },
     {
         "date": "2024-01-11",
         "affected": 300,
         "headline": "**Playtika** cutting **300-400** jobs in new round of layoffs",
         "link": "https://www.calcalistech.com/ctechnews/article/skb6elt006"
+    },
+    {
+        "date": "2024-01-11",
+        "affected": 170,
+        "headline": "**Discord** is laying off **170** employees, 17% of staff",
+        "link": "https://www.theverge.com/2024/1/11/24034705/discord-layoffs-17-percent-employees",
+        "comment": "Not strictly a games studio, but still notably games-adjacent."
+    },
+    {
+        "date": "2024-01-12",
+        "headline": "**Lost Boys Interactive** staff say **‘sizable portion’** of studio has been laid off",
+        "link": "https://aftermath.site/employees-say-sizable-portion-of-gearbox-owned-studio-has-been-laid-off"
     }
 ]
