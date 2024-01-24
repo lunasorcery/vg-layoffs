@@ -18,6 +18,12 @@
         "comment": "Not strictly a games studio, but still notably games-adjacent."
     },
     {
+        "date": "2024-01-09",
+        "affected": 45,
+        "headline": "**Behaviour Interactive** lays off **around 45** people",
+        "link": "https://kotaku.com/game-industry-layoffs-how-many-2024-unity-twitch-1851155818"
+    },
+    {
         "date": "2024-01-11",
         "affected": 300,
         "headline": "**Playtika** cutting **300-400** jobs in new round of layoffs",
@@ -31,8 +37,91 @@
         "comment": "Not strictly a games studio, but still notably games-adjacent."
     },
     {
+        "date": "2024-01-11",
+        "affected": 45,
+        "headline": "**PTW** (formerly Pole To Win) lays off **45** staff across global teams",
+        "link": "https://www.gamedeveloper.com/business/support-studio-ptw-lays-off-45-staff-across-global-teams"
+    },
+    {
         "date": "2024-01-12",
-        "headline": "**Lost Boys Interactive** staff say **‘sizable portion’** of studio has been laid off",
-        "link": "https://aftermath.site/employees-say-sizable-portion-of-gearbox-owned-studio-has-been-laid-off"
+        "affected": 125,
+        "headline": "**Lost Boys Interactive** lays off **‘approximately 125’** employees",
+        "link": [
+            "https://aftermath.site/employees-say-sizable-portion-of-gearbox-owned-studio-has-been-laid-off",
+            "https://data.fosters.com/see-which-companies-announced-mass-layoffs-closings/lost-boys-interactive-llc-or-large-layoff-10-or-more-workers/or-08708/"
+        ]
+    },
+    {
+        "date": "2024-01-12",
+        "affected": 3,
+        "headline": "**Funselektor** lays off **3** developers",
+        "link": "https://twitter.com/funselektor/status/1745977742603223163"
+    },
+    {
+        "date": "2024-01-16",
+        "affected": 25,
+        "headline": "**Netspeak Games** making **‘approximately 25’** roles redundant",
+        "link": "https://netspeakgames.com/blog/A-Message-From-Netspeak-Games-CEO"
+    },
+    {
+        "date": "2024-01-17",
+        "affected": 100,
+        "headline": "**Thunderful Group** restructuring to cut **about 100** employees, 20% of its workforce",
+        "link": "https://www.gamesindustry.biz/thunderful-announces-restructuring-that-will-cut-20-of-its-workforce"
+    },
+    {
+        "date": "2024-01-17",
+        "headline": "**Pixelberry Studios** has laid off **an unknown number** of employees",
+        "link": "https://www.gamedeveloper.com/business/nexon-owned-mobile-studio-pixelberry-is-conducting-layoffs"
+    },
+    {
+        "date": "2024-01-17",
+        "affected": 35,
+        "headline": "**Wimo Games** shuts down, laying off **35** employees",
+        "link": "https://www.gamesindustry.biz/wimo-games-reportedly-shuts-down"
+    },
+    {
+        "date": "2024-01-18",
+        "affected": 15,
+        "headline": "**CI Games** lays off **‘approximately 10%’** of staff",
+        "link": "https://www.gamesindustry.biz/ci-games-lays-off-10-of-staff",
+        "comment": "Kotaku estimates 15-20 people affected"
+    },
+    {
+        "date": "2024-01-18",
+        "headline": "**31st Union** lays off **‘small number’** of staff",
+        "link": "https://www.gamesindustry.biz/31st-union-lays-off-small-number-of-staff",
+        "comment": "Kotaku reports the studio said 'less than ten' employees affected"
+    },
+    {
+        "date": "2024-01-18",
+        "affected": 10,
+        "headline": "**Com2uS** lays off **‘a two-digit number’** of employees",
+        "link": "https://koreajoongangdaily.joins.com/news/2024-01-18/business/industry/Game-publishers-cancel-titles-cut-employees-as-economy-struggles/1961701",
+        "comment": "'affected' set to 10 as an absolute minimum, will update if new information comes out"
+    },
+    {
+        "date": "2024-01-18",
+        "affected": 70,
+        "headline": "**NCSoft** axes subsidiary **Ntreev Soft**, laying off all **70** employees",
+        "link": "https://koreajoongangdaily.joins.com/news/2024-01-18/business/industry/Game-publishers-cancel-titles-cut-employees-as-economy-struggles/1961701"
+    },
+    {
+        "date": "2024-01-19",
+        "affected": 70,
+        "headline": "**Netmarble** subsidiary **Metaverse World** lays off **about 70** people",
+        "link": "https://www.yna.co.kr/view/AKR20240119080700017"
+    },
+    {
+        "date": "2024-01-22",
+        "affected": 530,
+        "headline": "**Riot Games** eliminates **‘about 530’** roles, ~11% of workforce",
+        "link": "https://www.riotgames.com/en/news/2024-rioter-update"
+    },
+    {
+        "date": "2024-01-23",
+        "affected": 15,
+        "headline": "**One Player Mission** closes, laying off all **15** employees",
+        "link": "https://opmjobs.com/content-hub/announcing-our-closure/"
     }
 ]

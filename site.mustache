@@ -23,7 +23,7 @@
     {{/redacted}}
     {{^redacted}}
     <li class="layoff">
-      {{{text}}} <sup><a href="{{link}}" class="source">[source]</a></sup>
+      {{{text}}}{{#link}} <sup><a href="{{.}}" class="source">[source]</a></sup>{{/link}}
     </li>
     {{/redacted}}
     {{/layoffs}}
