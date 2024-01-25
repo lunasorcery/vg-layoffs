@@ -81,6 +81,7 @@ with open('site.mustache', 'r') as f:
         fout.write(chevron.render(
             template = f,
             data = {
+                'title': "How many people has the games industry laid off in 2024?",
                 'dataset': dataset,
                 'months': months,
                 'total-this-year': f"{total_this_year:,}",
