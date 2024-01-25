@@ -2,6 +2,7 @@
 
 import os
 import json
+import math
 import shutil
 import random
 import chevron
@@ -87,3 +88,37 @@ with open('site.mustache', 'r') as f:
                 'total-this-year': f"{total_this_year:,}",
                 'current-year': RENDER_YEAR
             }))
+
+
+# render the visual
+PEOPLE_PER_ROW = 50
+PERSON_SIZE_PX = 14
+SPACING_PX = 3
+DOT_RADIUS_PX = 4
+ROUNDED_RADIUS = 3
+
+total_people_to_draw = total_this_year
+space_for_ellipses = PEOPLE_PER_ROW - (total_people_to_draw % PEOPLE_PER_ROW)
+if space_for_ellipses < 3:
+    total_people_to_draw -= 3-space_for_ellipses
+
+image_width_px = PEOPLE_PER_ROW * (PERSON_SIZE_PX + SPACING_PX) + SPACING_PX
+image_height_px = math.ceil(total_people_to_draw / PEOPLE_PER_ROW) * (PERSON_SIZE_PX + SPACING_PX) + SPACING_PX
+
+with open(os.path.join(DIR_OUTPUT,'visual.svg'), 'w') as f:
+    f.write(f'<svg width="{image_width_px}" height="{image_height_px}" xmlns="http://www.w3.org/2000/svg">\n')
+    f.write('<g fill="rgb(98,187,255)">\n')
+    for idx in range(0, total_people_to_draw):
+        x = idx % PEOPLE_PER_ROW
+        y = math.floor(idx / PEOPLE_PER_ROW)
+        x_px = SPACING_PX + (PERSON_SIZE_PX + SPACING_PX) * x
+        y_px = SPACING_PX + (PERSON_SIZE_PX + SPACING_PX) * y
+        f.write(f'<rect x="{x_px}" y="{y_px}" width="{PERSON_SIZE_PX}" height="{PERSON_SIZE_PX}" rx="{ROUNDED_RADIUS}" />\n')
+    for idx in range(0, 3):
+        x = total_people_to_draw % PEOPLE_PER_ROW
+        y = math.floor(total_people_to_draw / PEOPLE_PER_ROW)
+        x_px = SPACING_PX + (PERSON_SIZE_PX + SPACING_PX) * x + DOT_RADIUS_PX + (DOT_RADIUS_PX * 2 + SPACING_PX) * idx
+        y_px = SPACING_PX + (PERSON_SIZE_PX + SPACING_PX) * y + (PERSON_SIZE_PX / 2)
+        f.write(f'<ellipse cx="{x_px}" cy="{y_px}" rx="{DOT_RADIUS_PX}" ry="{DOT_RADIUS_PX}" />\n')
+    f.write('</g>\n')
+    f.write('</svg>\n')

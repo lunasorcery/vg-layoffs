@@ -18,7 +18,7 @@ h2.page-title {
 }
 
 h2.more-than {
-    font-size: calc(min(7em, 15vw)); 
+    font-size: calc(min(7em, 15vw));
 
     text-align: center;
     margin: 0;
@@ -28,13 +28,20 @@ h2.more-than {
 
 h1.year-total {
     /* this will need to be updated when the number inevitably grows too wide for the screen */
-    font-size: calc(min(15em, 30vw)); 
-    
+    font-size: calc(min(15em, 30vw));
+
     text-align: center;
     margin-top: 0;
     margin-bottom: 0.2em;
     font-weight: 400;
     line-height: 1;
+}
+
+img.visual {
+    display: block;
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
 }
 
 div.months {
