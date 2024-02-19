@@ -194,9 +194,55 @@
         "link": "https://twitter.com/sweetpotatoes/status/1752775333411946997"
     },
     {
+        "date": "2024-02-02",
+        "affected": 25,
+        "headline": "**Threaks** shuts down, lays off entire staff of **25** people",
+        "link": "https://www.linkedin.com/posts/khagen95_opentowork-ugcPost-7159223959647830016-cBOa/"
+    },
+    {
+        "date": "2024-02-05",
+        "affected": 50,
+        "headline": "**Crop Circle Games** allegedly furloughs **around 50** staff",
+        "link": [
+            "https://www.gamedeveloper.com/business/indie-dev-crop-circle-games-appears-to-be-laying-off-staff",
+            "https://kotaku.com/game-industry-layoffs-how-many-2024-unity-twitch-1851155818"
+        ]
+    },
+    {
+        "date": "2024-02-06",
+        "affected": 11,
+        "headline": "**Threshold Games** closes its doors, laying off all **11** staff",
+        "link": "https://www.linkedin.com/posts/threshold-games_sadly-we-are-here-to-announce-the-closure-activity-7161809976456413184-IZp8/"
+    },
+    {
+        "date": "2024-02-07",
+        "affected": 60,
+        "headline": "**91Act** lays off entire studio — besides founder and CEO — **around 60** people",
+        "link": [
+            "http://www.gamelook.com.cn/2024/02/538064",
+            "https://twitter.com/zogzhu/status/1754518158600286372"
+        ]
+    },
+    {
+        "date": "2024-02-07",
+        "affected": 9,
+        "headline": "**Visual Concepts Austin** lays off **around 9** people",
+        "link": "https://www.eurogamer.net/layoffs-hit-wwe-lego-2k-drive-studio-visual-concepts-austin"
+    },
+    {
         "date": "2024-02-07",
         "affected": 44,
         "headline": "**Hidden Path Entertainment** lays off **44** people",
         "link": "https://www.linkedin.com/posts/pobst_for-over-six-months-our-team-at-hidden-path-activity-7161087287504564224-RJkW/"
+    },
+    {
+        "date": "2024-02-09",
+        "headline": "**Daybreak Games** hit by layoffs, an **unknown number** impacted",
+        "link": "https://kotaku.com/game-industry-layoffs-how-many-2024-unity-twitch-1851155818"
+    },
+    {
+        "date": "2024-02-19",
+        "headline": "**Build a Rocket Boy** lays off an **unknown number** of staff globally",
+        "link": "https://www.pcgamesn.com/everywhere/build-a-rocket-boy-layoffs"
     }
 ]
