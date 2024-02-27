@@ -71,8 +71,12 @@
     },
     {
         "date": "2024-01-17",
-        "headline": "**Pixelberry Studios** has laid off **an unknown number** of employees",
-        "link": "https://www.gamedeveloper.com/business/nexon-owned-mobile-studio-pixelberry-is-conducting-layoffs"
+        "affected": 120,
+        "headline": "**Pixelberry Studios** has laid off **120** employees",
+        "link": [
+            "https://www.gamedeveloper.com/business/nexon-owned-mobile-studio-pixelberry-is-conducting-layoffs",
+            "https://twitter.com/WhatLayoff/status/1755759992194375777"
+        ]
     },
     {
         "date": "2024-01-17",
