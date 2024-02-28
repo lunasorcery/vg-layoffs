@@ -245,14 +245,72 @@
         "link": "https://kotaku.com/game-industry-layoffs-how-many-2024-unity-twitch-1851155818"
     },
     {
+        "date": "2024-02-14",
+        "affected": 15,
+        "headline": "**Scopely** downsizes projects, **approximately 15** staff “may not find mutual role fits”",
+        "link": "https://www.gamesindustry.biz/scopely-layoffs-hit-kingdom-maker-team"
+    },
+    {
+        "date": "2024-02-19",
+        "affected": 24,
+        "headline": "**ZA/UM** to lay off **around 24** employees, around a quarter of staff",
+        "link": "https://videogames.si.com/news/disco-elysium-dev-zaum-layoffs"
+    },
+    {
         "date": "2024-02-19",
         "headline": "**Build a Rocket Boy** lays off an **unknown number** of staff globally",
         "link": "https://www.pcgamesn.com/everywhere/build-a-rocket-boy-layoffs"
+    },
+    {
+        "date": "2024-02-21",
+        "headline": "**Disruptive Games** lays off an **unknown number** of staff",
+        "link": "https://www.linkedin.com/posts/marissaframarini_today-is-the-last-day-for-many-of-us-atdisruptive-activity-7166204693646430208-ofmL/"
+    },
+    {
+        "date": "2024-02-22",
+        "affected": 38,
+        "headline": "**Gameloft** is laying off **at least 38** staff in Ukraine and Canada",
+        "link": "https://www.pocketgamer.biz/news/83479/global-layoffs-at-gameloft-as-staff-in-ukraine-and-toronto-confirm-redundancies/"
+    },
+    {
+        "date": "2024-02-23",
+        "headline": "**Electronic Arts** cutting **“small number”** of staff as it sunsets two mobile games",
+        "link": "https://www.gamesindustry.biz/ea-cutting-small-number-of-staff-as-it-sunsets-two-mobile-games"
+    },
+    {
+        "date": "2024-02-26",
+        "affected": 90,
+        "headline": "**Supermassive Games** set to lay off **roughly 90** workers",
+        "link": [
+            "https://twitter.com/SuperMGames/status/1762125258159431750",
+            "https://www.bloomberg.com/news/articles/2024-02-26/british-game-maker-supermassive-set-to-lay-off-90-workers"
+        ]
+    },
+    {
+        "date": "2024-02-26",
+        "affected": 10,
+        "headline": "**Die Gute Fabrik** halts production due to lack of funding, **10** staff looking for new roles",
+        "link": "https://twitter.com/gutefabrik/status/1762115984742076684"
     },
     {
         "date": "2024-02-27",
         "affected": 900,
         "headline": "**Sony Interactive Entertainment** lays off **about 900** people, 8% of global staff",
         "link": "https://sonyinteractive.com/en/news/blog/difficult-news-about-our-workforce/"
+    },
+    {
+        "date": "2024-02-27",
+        "affected": 30,
+        "headline": "**Deck Nine Games** lays off **around 30** people, around 20% of total workforce",
+        "link": [
+            "https://twitter.com/DeckNineGames/status/1762600546878599430",
+            "https://www.eurogamer.net/life-is-strange-true-colors-studio-deck-nine-lays-off-20-of-staff"
+        ]
+    },
+    {
+        "date": "2024-02-28",
+        "affected": 670,
+        "headline": "**Electronic Arts** cutting **around 670** roles, around 5% of workforce",
+        "link": "https://www.gamesindustry.biz/ea-cutting-5-of-workforce"
     }
 ]
